@@ -23,9 +23,12 @@ jobs:
       - name: Install Maturin
         run: pip install maturin
 
-      - name: Build fast-uuid (Release)
-        run: maturin develop --release
+      - name: Build and Install (Release)
+        run: |
+          # Build the wheel in release mode
+          maturin build --release --out dist
+          # Install the built wheel directly
+          pip install dist/*.whl
 
       - name: Run Benchmark
-        run: |
-          python benchmark.py
+        run: python benchmark.py
