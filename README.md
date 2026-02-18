@@ -2,10 +2,21 @@
 
 # fast-uuid-rs
 
-[![PyPI version](https://img.shields.io/pypi/v/fast-uuid-rs.svg)](https://pypi.org/project/fast-uuid-rs/)
-[![Python Versions](https://img.shields.io/pypi/pyversions/fast-uuid-rs.svg)](https://pypi.org/project/fast-uuid-rs/)
-[![License](https://img.shields.io/github/license/godalida/fast-uuid-rs?color=white)](https://github.com/godalida/fast-uuid-rs)
-[![Downloads](https://pepy.tech/badge/fast-uuid-rs)](https://pepy.tech/project/fast-uuid-rs)
+<p align="center">
+  <a href="https://pypi.org/project/fast-uuid-rs/">
+    <img src="https://img.shields.io/pypi/v/fast-uuid-rs?color=007FFF" alt="PyPI">
+  </a>
+  <a href="https://pepy.tech/project/fast-uuid-rs">
+    <img src="https://static.pepy.tech/personalized-badge/fast-uuid-rs?period=total&units=INTERNATIONAL_SYSTEM&left_color=grey&right_color=BLUE&left_text=downloads" alt="Downloads">
+  </a>
+  <a href="https://github.com/godalida/fast-uuid-rs/actions/workflows/benchmark.yml">
+    <img src="https://img.shields.io/github/actions/workflow/status/godalida/fast-uuid-rs/benchmark.yml?branch=main" alt="Benchmarks">
+  </a>
+  <img src="https://img.shields.io/pypi/pyversions/fast-uuid-rs?color=6e42c1" alt="Python Versions">
+  <a href="https://github.com/godalida/fast-uuid-rs/blob/main/LICENSE">
+    <img src="https://img.shields.io/github/license/godalida/fast-uuid-rs?color=white" alt="License">
+  </a>
+</p>
 
 **Blazing fast UUID v4 generation for Python, written in Rust.**
 
